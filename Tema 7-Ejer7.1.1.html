@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Ally-Pos.Absoluto y Fijo</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:Arial;
+}
+
+#contenedor{
+    background:#e8e8e8;
+    border:3px solid black;
+}
+#menu{
+    position:fixed;
+    left:0;
+    top:0;
+    width:200px;
+    height:100%;
+    background:#4CAF50;
+    color:white;
+    padding:20px;
+}
+#anuncios{
+    position:absolute;
+    right:0;
+    top:0;
+    width:200px;
+    height:400px;
+    background:#ff9800;
+    padding:20px;
+}
+#contenido1{
+    position:absolute;
+    left:220px;
+    top:20px;
+    width:60%;
+    height:200px;
+    background:#2196F3;
+    color:white;
+    padding:20px;
+}
+#contenido2{
+    position:absolute;
+    left:220px;
+    top:260px;
+    width:60%;
+    height:200px;
+    background:#9C27B0;
+    color:white;
+    padding:20px;
+}
+</style>
+</head>
+
+<body>
+
+<div id="contenedor">
+
+<div id="menu">
+<h3>Menú</h3>
+<p>Inicio</p>
+<p>Noticias</p>
+<p>Contacto</p>
+</div>
+
+<div id="anuncios">
+<h3>Anuncios</h3>
+<p>Publicidad</p>
+</div>
+
+<div id="contenido1">
+<h2>Contenido 1</h2>
+<p>Texto de ejemplo.</p>
+</div>
+
+<div id="contenido2">
+<h2>Contenido 2</h2>
+<p>Más contenido.</p>
+</div>
+
+</div>
+
+</body>
+</html>
